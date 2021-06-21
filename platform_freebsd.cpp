@@ -4,10 +4,10 @@ using namespace BinaryNinja;
 using namespace std;
 
 
-class FreeBSDX86Platform: public Platform
+class FreeBSDX86Platform : public Platform
 {
-public:
-	FreeBSDX86Platform(Architecture* arch): Platform(arch, "freebsd-x86")
+ public:
+	FreeBSDX86Platform(Architecture* arch) : Platform(arch, "freebsd-x86")
 	{
 		Ref<CallingConvention> cc;
 
@@ -29,10 +29,10 @@ public:
 };
 
 
-class FreeBSDX64Platform: public Platform
+class FreeBSDX64Platform : public Platform
 {
-public:
-	FreeBSDX64Platform(Architecture* arch): Platform(arch, "freebsd-x86_64")
+ public:
+	FreeBSDX64Platform(Architecture* arch) : Platform(arch, "freebsd-x86_64")
 	{
 		Ref<CallingConvention> cc;
 
@@ -48,10 +48,10 @@ public:
 };
 
 
-class FreeBSDArmv7Platform: public Platform
+class FreeBSDArmv7Platform : public Platform
 {
-public:
-	FreeBSDArmv7Platform(Architecture* arch, const std::string& name): Platform(arch, name)
+ public:
+	FreeBSDArmv7Platform(Architecture* arch, const std::string& name) : Platform(arch, name)
 	{
 		Ref<CallingConvention> cc;
 
@@ -67,10 +67,10 @@ public:
 };
 
 
-class FreeBSDArm64Platform: public Platform
+class FreeBSDArm64Platform : public Platform
 {
-public:
-	FreeBSDArm64Platform(Architecture* arch): Platform(arch, "freebsd-aarch64")
+ public:
+	FreeBSDArm64Platform(Architecture* arch) : Platform(arch, "freebsd-aarch64")
 	{
 		Ref<CallingConvention> cc;
 
