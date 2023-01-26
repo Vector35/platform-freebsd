@@ -96,6 +96,7 @@ extern "C"
 		AddOptionalPluginDependency("arch_x86");
 		AddOptionalPluginDependency("arch_armv7");
 		AddOptionalPluginDependency("arch_arm64");
+		AddOptionalPluginDependency("view_elf");
 	}
 #endif
 
